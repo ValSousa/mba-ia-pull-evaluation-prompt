@@ -300,10 +300,10 @@ Todas as execuções usaram o mesmo dataset (`bug-to-user-story-challenge-eval`,
 
 | Execução | Prompt | Helpfulness | Correctness | F1-Score | Clarity | Precision | Média | Status |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Execução 1 — V1 (versão original) | `leonanluppi/bug_to_user_story_v1` | 0.85 ✓ | **0.79 ✗** | **0.73 ✗** | 0.86 ✓ | 0.84 ✓ | 0.8151 | ❌ Reprovado |
-| Execução 2 — V2, Round 1 | `valeria-ai-lab/bug_to_user_story_v2` | 0.86 ✓ | 0.81 ✓ | **0.79 ✗** | 0.89 ✓ | 0.82 ✓ | 0.8344 | ❌ Reprovado |
-| Execução 3 — V2, Round 2 | `valeria-ai-lab/bug_to_user_story_v2` | 0.88 ✓ | 0.85 ✓ | 0.83 ✓ | 0.89 ✓ | 0.86 ✓ | 0.8608 | ✅ Aprovado |
-| Execução 4 — V2, Round 3 | `valeria-ai-lab/bug_to_user_story_v2` | 0.88 ✓ | 0.87 ✓ | 0.86 ✓ | 0.89 ✓ | 0.87 ✓ | **0.8737** | ✅ Aprovado |
+| Execução 1 — V1 (versão original) | `bug_to_user_story_v1` | 0.85 ✓ | **0.79 ✗** | **0.73 ✗** | 0.86 ✓ | 0.84 ✓ | 0.8151 | ❌ Reprovado |
+| Execução 2 — V2, Round 1 | `bug_to_user_story_v2` | 0.86 ✓ | 0.81 ✓ | **0.79 ✗** | 0.89 ✓ | 0.82 ✓ | 0.8344 | ❌ Reprovado |
+| Execução 3 — V2, Round 2 | `bug_to_user_story_v2` | 0.88 ✓ | 0.85 ✓ | 0.83 ✓ | 0.89 ✓ | 0.86 ✓ | 0.8608 | ✅ Aprovado |
+| Execução 4 — V2, Round 3 | `bug_to_user_story_v2` | 0.88 ✓ | 0.87 ✓ | 0.86 ✓ | 0.89 ✓ | 0.87 ✓ | **0.8737** | ✅ Aprovado |
 
 No Round 1, só o F1-Score ficou abaixo do mínimo (0.79). A partir do Round 2, as 5 métricas passaram de 0.8. O Round 3 melhorou mais três métricas e a média subiu para 0.8737.
 
