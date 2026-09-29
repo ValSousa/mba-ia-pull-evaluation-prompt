@@ -45,6 +45,6 @@ ENV/
 *.log
 
 # Project specific
-screenshots/
+# screenshots/ removido: os prints das avaliações são evidência exigida no README
 results/
 .claude/
